@@ -1,10 +1,10 @@
 ##!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # -------------------------------------------------------------------------
-# Archivo: csv_extractor.py
+# Archivo: txt_extractor.py
 # Capitulo: Flujo de Datos
-# Autor(es): Perla Velasco & Yonathan Mtz. & Jorge Solís
-# Version: 1.0.0 Noviembre 2022
+# Autor(es): Alberto Villalpando Cardona
+# Version: 1.1.0 Abril 2023
 # Descripción:
 #
 #   Este archivo define un procesador de datos que se encarga de extraer
