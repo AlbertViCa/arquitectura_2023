@@ -75,3 +75,4 @@ docker run --rm --name gestor-de-datos --link dgraph:dgraph gestor-de-datos
 
 v1.1.0 - Abril 2023
 
+ -Se agrego el soporte de archivos TXT.
