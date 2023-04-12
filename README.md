@@ -12,6 +12,7 @@ Componente responsable de ejecutar el proceso de *extracción*, *transformación
     │  ├── extractors                   # extractores de datos
     │        ├── csv_extractor.py       # extractor de datos de archivos CSV
     │        ├── htm_extractor.py       # extractor de datos de archivos HTM
+    │        ├── txt_extractor.py       # extractor de datos de archivos TXT
     │        ├── xml_extractor.py       # extractor de datos de archivos XML
     │  ├── helpers                      # archivos auxiliares
     │        ├── provider.py            # definición de la interacción con la base de datos
@@ -22,6 +23,7 @@ Componente responsable de ejecutar el proceso de *extracción*, *transformación
     │  ├── transformers                 # transformadores de datos
     │        ├── csv_transformer.py     # transformador de datos de archivos CSV
     │        ├── htm_transformer.py     # transformador de datos de archivos HTM
+    │        ├── txt_transformer.py     # transformador de datos de archivos TXT
     │        ├── xml_transformer.py     # transformador de datos de archivos XML
     ├── .gitignore                      # exclusiones de git
     ├── README.md                       # este archivo
@@ -71,21 +73,5 @@ docker run --rm --name gestor-de-datos --link dgraph:dgraph gestor-de-datos
 
 ## Versión
 
-v1.1.0 - Noviembre 2022
+v1.1.0 - Abril 2023
 
-## Autores
-
-- Perla Velasco
-- Yonathan Martinez
-- Jorge Solis
-
-# Preguntas Frecuentes
-
-### ¿Necesito instalar Docker?
-
-Por supuesto, la herramienta Docker es vital para la ejecución de este sistema. Para conocer más acerca de Docker puedes visitar el siguiente [enlace](https://medium.com/@javiervivanco/que-es-docker-79d506f7b2fc).
-
-> Para realizar la instalación de Docker en Windows puedes consultar el siguiente [enlace](https://medium.com/@tushar0618/installing-docker-desktop-on-window-10-501e594fc5eb)
-
-
-> Para realizar la instalación de Docker en Linux puedes consultar el siguiente [enlace](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-es)
